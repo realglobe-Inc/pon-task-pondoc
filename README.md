@@ -75,11 +75,11 @@ Usage
 'use strict'
 
 const pon = require('pon')
-const ponTaskPondoc = require('pon-task-pondoc')
+const pondoc = require('pon-task-pondoc')
 
 ;(async () => {
-  let run = pon({
-    myTask01: ponTaskPondoc()
+  const run = pon({
+    'doc:pon': pondoc()
   })
 
   run('myTask01')
@@ -98,12 +98,14 @@ Signatures
 ---------
 
 
-### `define(options) -> function`
+### `define(src, dest, options) -> function`
 
 Define task
 
 | Param | type | Description |
 | ---- | --- | ----------- |
+| src | string |  Source pon file |
+| dest | string |  Destination |
 | options | Object |  Optional settings |
 
 
