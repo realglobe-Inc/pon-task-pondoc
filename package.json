@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-task-pondoc#readme",
   "dependencies": {
+    "fmtjson": "^4.0.0",
     "writeout": "^2.2.1"
   },
   "devDependencies": {
