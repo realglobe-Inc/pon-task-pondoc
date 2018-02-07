@@ -26,8 +26,8 @@
     "writeout": "^2.2.1"
   },
   "devDependencies": {
-    "ababel": "^4.0.1",
-    "amocha": "^4.0.0",
+    "ababel": "*",
+    "amocha": "*",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
