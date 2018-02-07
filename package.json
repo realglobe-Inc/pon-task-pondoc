@@ -1,6 +1,6 @@
 {
   "name": "pon-task-pondoc",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generate document for pon",
   "main": "lib",
   "browser": "shim/browser",
