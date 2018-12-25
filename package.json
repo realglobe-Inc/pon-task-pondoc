@@ -1,6 +1,6 @@
 {
   "name": "pon-task-pondoc",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Generate document for pon",
   "main": "lib",
   "browser": "shim/browser",
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/realglobe-Inc/pon-task-pondoc#readme",
   "dependencies": {
     "fmtjson": "^4.0.0",
+    "jsdoc": "^3.5.5",
     "writeout": "^2.2.1"
   },
   "devDependencies": {
