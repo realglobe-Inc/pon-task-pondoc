@@ -1,6 +1,6 @@
 {
   "name": "pon-task-pondoc",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Generate document for pon",
   "main": "lib",
   "browser": "shim/browser",
@@ -14,8 +14,7 @@
   ],
   "author": {
     "name": "okunishinishi",
-    "email": "okunishinishi@gmail.com",
-    "url": "undefined"
+    "email": "okunishinishi@gmail.com"
   },
   "license": "Apache-2.0",
   "bugs": {
@@ -24,11 +23,11 @@
   "homepage": "https://github.com/realglobe-Inc/pon-task-pondoc#readme",
   "dependencies": {
     "fmtjson": "^4.0.6",
-    "jsdoc": "^3.5.5",
+    "jsdoc": "^3.6.3",
     "writeout": "^2.2.4"
   },
   "devDependencies": {
-    "ababel": "^6.0.0",
+    "ababel": "^6.0.3",
     "amocha": "^6.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^2.0.2",
