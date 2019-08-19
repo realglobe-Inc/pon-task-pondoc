@@ -107,6 +107,7 @@ Define task
 | src | string |  Source pon file |
 | dest | string |  Destination |
 | options | Object |  Optional settings |
+| options.tasksNamepath | string | = Namepath of tasks |
 
 
 
